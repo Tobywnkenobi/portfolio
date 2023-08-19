@@ -1,16 +1,19 @@
+/* normalization */
 * {
     padding:0;
     margin:0;
-    box-sizing:  border-box;
+    box-sizing: border-box;
 }
 
 body {
     background-color: black;
+
 }
 
 header {
     background-color: dodgerblue;
     border-bottom: 3px solid tomato;
+    margin-bottom: 10px;
 }
 
 footer {
@@ -22,11 +25,11 @@ footer {
 
 article {
     background-color: tomato;
-    margin:  0 auto 20px;
+    margin: 0 auto 20px;
     border: 2px solid dodgerblue;
     padding: 50px;
     width: 70%;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 nav {
@@ -34,41 +37,47 @@ nav {
 }
 
 .nav-bar, .nav-link {
-    display:inline;
+    display: inline;
+
 }
 
-#brand-title{
-    margin: 20px;
-    }
+#brand-title {
+    margin-right: 20px;
+}
 
-    a{
-        color:black;
-        padding: 5px;;
-        text-decoration: none;
-       
-    }
-a:hover{
-    color:tomato
+a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
 }
-main{
-    text-align:center;
+
+a:hover {
+    color: tomato;
 }
-form{
+
+main {
+    text-align: center;
+}
+
+form {
     border: 2px dotted black;
-    width:30%;
+    width: 30%;
     margin: 0 auto 20px;
     border-radius: 20px;
     padding: 20px;
 }
-.form-label{
+
+.form-label {
     margin-top: 10px;
     margin-bottom: 5px;
 }
-input, textarea{
+
+input, textarea {
     padding: 5px;
     border-radius: 5px;
 }
-/* #profile-picture{       this is going to make it round, picture link is different
-    border-raidus: 50%;
-    border: 2x solid black;
-} */
+
+#profile-picture{
+    border-radius: 50%;
+    border: 2px solid pink;
+}
