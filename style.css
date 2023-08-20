@@ -28,7 +28,7 @@ footer {
 }
 
 article {
-    background-color: rgba(71, 255, 246, 0.493);
+    background-color: rgb(170, 95, 95);
     margin: 0 auto 20px;
     border: 2px solid dodgerblue;
     padding: 50px;
@@ -70,7 +70,7 @@ a:hover {
 }
 
 main {
-    text-align: center;
+    text-align: center;    
 }
 
 form {
@@ -112,4 +112,12 @@ textarea {
 
 .nav-link {
     font-size: x-large;
+}
+
+body{
+    background-image: url("tractor_rear.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
