@@ -28,6 +28,7 @@ footer {
 }
 
 article {
+    color: rgb(8, 8, 137);
     background-color: rgb(170, 95, 95);
     margin: 0 auto 20px;
     border: 2px solid dodgerblue;
@@ -57,6 +58,8 @@ nav {
 
 #brand-title {
     text-align: left;
+    color: orange;
+    line-height: 65px;
 }
 
 a {
