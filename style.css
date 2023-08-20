@@ -1,27 +1,30 @@
 /* normalization */
 * {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
 body {
     background-color: black;
 
+
 }
 
 header {
     background-color: rgb(30, 90, 255);
-    border-bottom: 7px solid rgb(40, 94, 24);
+    border-bottom: 7px solid rgb(172, 241, 11);
     margin-bottom: 10px;
-    height: 100px;    
+    height: 100px;
+    text-align: center;
 }
 
 footer {
-    background-color: dodgerblue;
+    background-color: rgb(255, 131, 30);
     border-top: 3px solid tomato;
     text-align: center;
     padding: 10px;
+    color: darkblue;
 }
 
 article {
@@ -37,9 +40,19 @@ nav {
     list-style-type: none;
 }
 
-.nav-bar, .nav-link {
+.nav-bar,
+.nav-link {
     display: inline;
-    text-decoration-color: blueviolet;
+    color: rgb(226, 43, 67);
+}
+
+.nav-bar {
+    color: rgb(171, 167, 180);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-link {
+    color: rgb(143, 8, 8);
 }
 
 #brand-title {
@@ -53,7 +66,7 @@ a {
 }
 
 a:hover {
-    color: tomato;
+    color: rgb(144, 238, 20);
 }
 
 main {
@@ -71,14 +84,32 @@ form {
 .form-label {
     margin-top: 10px;
     margin-bottom: 5px;
+    color: darkolivegreen;
 }
 
-input, textarea {
+input,
+textarea {
     padding: 5px;
     border-radius: 5px;
 }
 
-#profile-picture{
+#profile-picture {
     border-radius: 50%;
     border: 2px solid pink;
+    max-width: 100%;
+    height: auto;
+}
+
+.sec_color_set {
+    background-color: chocolate;
+    color: rgba(5, 5, 128, 0.795);
+}
+
+.third_color_set {
+    background-color: rgb(148, 134, 118);
+    color: rgb(88, 124, 53);
+}
+
+.nav-link {
+    font-size: x-large;
 }
