@@ -70,7 +70,7 @@ a:hover {
 }
 
 main {
-    text-align: center;    
+    text-align: center;
 }
 
 form {
@@ -100,6 +100,22 @@ textarea {
     height: auto;
 }
 
+#profile-picture_2,
+#profile-picture {
+    display: inline;
+}
+
+#profile-picture_2 {
+    border-radius: 50%;
+    width: 300px;
+
+}
+
+#tandy {
+    border-radius: 50%;
+    width: 600px;
+}
+
 .sec_color_set {
     background-color: chocolate;
     color: rgba(5, 5, 128, 0.795);
@@ -110,11 +126,29 @@ textarea {
     color: rgb(88, 124, 53);
 }
 
+.fourth_color_set {
+    background-color: rgba(119, 234, 222, 0.971);
+    color: rgb(109, 27, 27);
+}
+
+.hosp_box {
+    background-color: darkred;
+    color: rgb(219, 219, 75);
+}
+
+#rest_worked{
+    display: inline;
+    max-width: 200px;
+    height: 150px;
+    border-radius: 20%;
+
+}
+
 .nav-link {
     font-size: x-large;
 }
 
-body{
+body {
     background-image: url("tractor_rear.JPG");
     background-repeat: no-repeat;
     background-attachment: fixed;
